@@ -1,4 +1,6 @@
-def hello():
-    return('Привет, мир!')
+from random import randint
 
-print(hello())    
+def hello():
+    temp = randint(0, 100)
+    print(f'Привет, Мир!, {temp} раз!')
+hello()   
